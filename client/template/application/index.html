@@ -1,0 +1,15 @@
+<template name="index">
+    {{#if loggingIn}}
+        {{> spinner }}
+    {{else}}
+        {{#if currentUser}}
+            <div>
+                Gratulation, you are logged in bro.
+            </div>
+        {{else}}
+            <div>
+                Without sending me your credentials I won't give you access.
+            </div>
+        {{/if}}
+    {{/if}}
+</template>

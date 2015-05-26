@@ -1,0 +1,15 @@
+input {
+    width: 100%;
+}
+#css_order_adress li {
+    width: 100%;
+    padding: 0.35em;
+    background: peachpuff;
+    list-style-type: none;
+}
+#css_order_adress li:hover, #css_order_adress li:focus {
+    text-decoration: underline;
+    color: white;
+    background: greenyellow;
+}
+

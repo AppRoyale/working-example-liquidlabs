@@ -1,0 +1,36 @@
+<template name="orderAdress">
+    <div id="smallModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Description</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Insert street name in the <code>.input bar</code> For Example: Reeperbahn 153</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Aight!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="container-fluid">
+      <div class="jumbotron">
+          Welcome to GoogleZ street search.
+      </div>
+      <div class="row">
+          <div class="hidden-sm hidden-md hidden-lg">
+              Only in Full HD :(
+          </div>
+          <div class="hidden-xs col-lg-12 col-md-12 col-sm-12">
+            {{> esInput index="orders" placeholder="Search for a street. . . . . ." }}
+              <ul id="css_order_adress" style="display: inline">
+                {{#esEach index="orders"}}
+                    <li>Name of company: <strong>{{companyName}}</strong> in street {{customerAdress}}</li>
+                {{/esEach}}
+              </ul>
+          </div>
+      </div>
+  </div>
+</template>

@@ -1,0 +1,83 @@
+<template name="orderCompany">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Super Trader</h3>
+        </div>
+        <div class="panel-body">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>orderID</th>
+                    <th>companyName</th>
+                    <th>customerAdress</th>
+                    <th>orderedItem</th>
+                </tr>
+                </thead>
+                {{#each superTrader}}
+                    <tbody>
+                    <tr class="info">
+                        <td>{{orderID}}</td>
+                        <td>{{companyName}}</td>
+                        <td>{{customerAdress}}</td>
+                        <td>{{orderedItem}}</td>
+                    </tr>
+                    </tbody>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Cheapskates</h3>
+        </div>
+        <div class="panel-body">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>orderID</th>
+                    <th>companyName</th>
+                    <th>customerAdress</th>
+                    <th>orderedItem</th>
+                </tr>
+                </thead>
+                {{#each cheapskates}}
+                    <tbody>
+                    <tr class="success">
+                        <td>{{orderID}}</td>
+                        <td>{{companyName}}</td>
+                        <td>{{customerAdress}}</td>
+                        <td>{{orderedItem}}</td>
+                    </tr>
+                    </tbody>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Mega Corp</h3>
+        </div>
+        <div class="panel-body">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>orderID</th>
+                    <th>companyName</th>
+                    <th>customerAdress</th>
+                    <th>orderedItem</th>
+                </tr>
+                </thead>
+                {{#each megaCorp}}
+                    <tbody>
+                    <tr class="danger">
+                        <td>{{orderID}}</td>
+                        <td>{{companyName}}</td>
+                        <td>{{customerAdress}}</td>
+                        <td>{{orderedItem}}</td>
+                    </tr>
+                    </tbody>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+</template>

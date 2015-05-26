@@ -1,0 +1,23 @@
+<template name="orderStatic">
+    <h3>The orders(static)</h3>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>orderID</th>
+            <th>companyName</th>
+            <th>customerAdress</th>
+            <th>orderedItem</th>
+        </tr>
+        </thead>
+      {{#each shop}}
+          <tbody>
+          <tr class="info">
+              <td>{{orderID}}</td>
+              <td>{{companyName}}</td>
+              <td>{{customerAdress}}</td>
+              <td>{{orderedItem}}</td>
+          </tr>
+          </tbody>
+      {{/each}}
+    </table>
+</template>
