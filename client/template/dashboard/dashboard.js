@@ -37,9 +37,11 @@ Template.dashboard.onRendered(function(){
         $('#wrapper').toggleClass('toggled');
     });
 
-    // Close Navigation after Click
+    /**
+     * If this is turned on - navi closes on markdown menus.
+     *
     $('.navbar li a').on('click', function () {
         $('.hamburger').click();
     });
-
+    **/
 });
