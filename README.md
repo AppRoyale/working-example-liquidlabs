@@ -1,4 +1,4 @@
-# Die beste Anwendung der Welt
+# The best application EVER
 * Andre Schiemann
 
 ## Install
