@@ -8,6 +8,10 @@ Make sure to install Meteor
 * $ curl https://install.meteor.com/ | sh
 * https://install.meteor.com/windows
 
+## Start
+
+** cd in folder and type in "meteor" 
+
 ## These need to be added manually in case something goes wrong (just for this repo)
 * meteor add iron:router
 * meteor add underscore
@@ -17,6 +21,3 @@ Make sure to install Meteor
 * meteor add sacha:spin
 * meteor add matteodem:easy-search 
 
-## Start
-
-** cd in folder and type in "meteor" 
