@@ -5,8 +5,8 @@
 
 Make sure to install Meteor
 
-** $ curl https://install.meteor.com/ | sh
-** https://install.meteor.com/windows
+* $ curl https://install.meteor.com/ | sh
+* https://install.meteor.com/windows
 
 ## These need to be added manually in case something goes wrong (just for this repo)
 * meteor add iron:router
